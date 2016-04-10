@@ -1,0 +1,6 @@
+---
+
+- hosts: all
+  roles:
+    - apt-cacher-ng-client
+
