@@ -5,5 +5,5 @@
 #  vars:
 #    - a:
   roles:
-    - apt-cacher-ng-client
+    - juju4.apt-cacher-ng-client
 
