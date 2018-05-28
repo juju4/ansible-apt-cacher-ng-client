@@ -11,10 +11,11 @@ https://www.unix-ag.uni-kl.de/~bloch/acng/
 It was tested on the following versions:
  * 1.9
  * 2.0
+ * 2.5
 
 ### Operating systems
 
-Tested with vagrant on Ubuntu 14.04, Kitchen test with trusty and centos7
+Tested on Ubuntu 14.04, 16.04 and 18.04 and centos7
 
 ## Example Playbook
 
@@ -24,7 +25,7 @@ For example
 ```
 - host: all
   roles:
-    - apt-cacher-ng-client
+    - juju4.apt-cacher-ng-client
 ```
 
 ## Variables
@@ -37,13 +38,13 @@ This role has a travis basic test (for github), more advanced with kitchen and a
 
 Once you ensured all necessary roles are present, You can test with:
 ```
-$ cd /path/to/roles/apt-cacher-ng-client
+$ cd /path/to/roles/juju4.apt-cacher-ng-client
 $ kitchen verify
 $ kitchen login
 ```
 or
 ```
-$ cd /path/to/roles/apt-cacher-ng-client/test/vagrant
+$ cd /path/to/roles/juju4.apt-cacher-ng-client/test/vagrant
 $ vagrant up
 $ vagrant ssh
 ```
