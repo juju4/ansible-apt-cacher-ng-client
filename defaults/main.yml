@@ -1,2 +1,3 @@
-apt_proxy: apt.example.com:3142
+---
 
+apt_proxy: apt.example.com:3142

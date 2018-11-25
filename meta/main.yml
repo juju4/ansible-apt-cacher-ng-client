@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: apt-cacher-ng-client
   author: juju4
   description: apt-cacher-ng client
   license: BSD

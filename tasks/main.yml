@@ -1,5 +1,5 @@
 ---
+
 - name: Set up apt proxy
   template: src=apt_proxy.conf dest=/etc/apt/apt.conf.d/01proxy owner=root group=root mode=0644
   when: ansible_os_family == "Debian" and apt_proxy is defined
-
