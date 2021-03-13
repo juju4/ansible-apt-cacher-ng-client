@@ -1,5 +1,6 @@
-[![Build Status - Master](https://travis-ci.org/juju4/ansible-apt-cacher-ng-client.svg?branch=master)](https://travis-ci.org/juju4/ansible-apt-cacher-ng-client)
-[![Build Status - Devel](https://travis-ci.org/juju4/ansible-apt-cacher-ng-client.svg?branch=devel)](https://travis-ci.org/juju4/ansible-apt-cacher-ng-client/branches)
+[![Actions Status - Master](https://github.com/juju4/ansible-apt-cacher-ng-client/workflows/AnsibleCI/badge.svg)](https://github.com/juju4/ansible-apt-cacher-ng-client/actions?query=branch%3Amaster)
+[![Actions Status - Devel](https://github.com/juju4/ansible-apt-cacher-ng-client/workflows/AnsibleCI/badge.svg?branch=devel)](https://github.com/juju4/ansible-apt-cacher-ng-client/actions?query=branch%3Adevel)
+
 # apt-cacher-ng client ansible role
 
 A simple ansible role to setup system as apt-cacher-ng client
