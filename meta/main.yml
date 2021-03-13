@@ -6,16 +6,16 @@ galaxy_info:
   license: BSD
   min_ansible_version: 1.9
   platforms:
-  - name: Ubuntu
-    versions:
-     - focal
-     - bionic
-     - xenial
-     - trusty
-     - precise
-  - name: Debian
-    versions:
-     - jessie
+    - name: Ubuntu
+      versions:
+        - focal
+        - bionic
+        - xenial
+        - trusty
+        - precise
+    - name: Debian
+      versions:
+        - jessie
   galaxy_tags:
     - networking
     - system
