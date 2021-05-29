@@ -2,4 +2,4 @@
 - name: Converge
   hosts: all
   roles:
-    - juju4.apt-cacher-ng-client
+    - juju4.aptcacherngclient
