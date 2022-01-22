@@ -5,7 +5,7 @@ node {
     try{
         currentBuild.result = "SUCCESS"
         def workspace = pwd()
-        def directory = "juju4.apt-cacher-ng-client"
+        def directory = "juju4.aptcacherngclient"
 
         stage 'Clean Workspace'
             deleteDir()

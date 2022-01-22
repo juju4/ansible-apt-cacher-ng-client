@@ -26,7 +26,7 @@ For example
 ```
 - host: all
   roles:
-    - juju4.apt-cacher-ng-client
+    - juju4.aptcacherngclient
 ```
 
 ## Variables
@@ -39,13 +39,13 @@ This role has a travis basic test (for github), more advanced with kitchen and a
 
 Once you ensured all necessary roles are present, You can test with:
 ```
-$ cd /path/to/roles/juju4.apt-cacher-ng-client
+$ cd /path/to/roles/juju4.aptcacherngclient
 $ kitchen verify
 $ kitchen login
 ```
 or
 ```
-$ cd /path/to/roles/juju4.apt-cacher-ng-client/test/vagrant
+$ cd /path/to/roles/juju4.aptcacherngclient/test/vagrant
 $ vagrant up
 $ vagrant ssh
 ```
