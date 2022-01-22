@@ -28,7 +28,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          path: juju4.apt-cacher-ng-client
+          path: juju4.aptcacherngclient
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
