@@ -4,10 +4,10 @@
   hosts: apt-cacher-ng-client
   tasks:
     - name: Fetch content of /etc/apt/apt.conf.d/01proxy
-      slurp:
+      ansible.builtin.slurp:
         src: /etc/apt/apt.conf.d/01proxy
       register: apt
     - name: Validate 01proxy
-      assert:
+      ansible.builtin.assert:
         that: >
           "'Acquire::http { Proxy' in apt['content'] | b64decode"
