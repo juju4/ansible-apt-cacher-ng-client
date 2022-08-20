@@ -5,8 +5,6 @@ on:
   push:
   pull_request:
   workflow_dispatch:
-  schedule:  # run weekly, every monday 01:00
-    - cron: '0 1 * * 1'
 
 jobs:
   build:
