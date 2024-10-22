@@ -18,11 +18,15 @@ jobs:
       max-parallel: 4
       matrix:
         include:
+          - molecule_distro: 'ubuntu:24.04'
+            experimental: true
           - molecule_distro: 'ubuntu:22.04'
             experimental: true
           - molecule_distro: 'ubuntu:20.04'
             experimental: false
-          - molecule_distro: 'ubuntu:18.04'
+          - molecule_distro: 'debian:12'
+            experimental: false
+          - molecule_distro: 'debian:11'
             experimental: false
           - molecule_distro: 'debian:10'
             experimental: false
@@ -32,11 +36,11 @@ jobs:
       ANSIBLE_ROLE: juju4.aptcacherngclient
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           path: ${{ env.ANSIBLE_ROLE }}
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
       - name: Install dependencies
