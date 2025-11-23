@@ -9,5 +9,5 @@
       register: apt
     - name: Validate 01proxy
       ansible.builtin.assert:
-        that: >
-          "'Acquire::http { Proxy' in apt['content'] | b64decode"
+        that:
+          - "'Acquire::http { Proxy' in apt['content'] | b64decode"
