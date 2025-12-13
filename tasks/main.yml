@@ -7,4 +7,7 @@
     owner: root
     group: root
     mode: '0644'
-  when: ansible_os_family == "Debian" and apt_proxy is defined
+  when:
+    - ansible_os_family == "Debian"
+    - apt_proxy is defined
+    - apt_proxy | length > 0
