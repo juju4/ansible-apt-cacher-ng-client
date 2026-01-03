@@ -1,12 +1,11 @@
 ---
-
 - name: Set up apt proxy
   ansible.builtin.template:
     src: apt_proxy.conf
     dest: /etc/apt/apt.conf.d/01proxy
     owner: root
     group: root
-    mode: '0644'
+    mode: "0644"
   when:
     - ansible_facts['os_family'] == "Debian"
     - apt_proxy is defined

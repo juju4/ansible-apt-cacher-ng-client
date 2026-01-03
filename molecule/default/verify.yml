@@ -1,5 +1,4 @@
 ---
-
 - name: Verify
   hosts: apt-cacher-ng-client
   tasks:
