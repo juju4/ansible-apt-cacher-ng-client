@@ -1,7 +1,7 @@
-[![Actions Status - Master](https://github.com/juju4/ansible-apt-cacher-ng-client/workflows/AnsibleCI/badge.svg)](https://github.com/juju4/ansible-apt-cacher-ng-client/actions?query=branch%3Amaster)
-[![Actions Status - Devel](https://github.com/juju4/ansible-apt-cacher-ng-client/workflows/AnsibleCI/badge.svg?branch=devel)](https://github.com/juju4/ansible-apt-cacher-ng-client/actions?query=branch%3Adevel)
-
 # apt-cacher-ng client ansible role
+
+[![Actions Status - Main](https://github.com/juju4/ansible-apt-cacher-ng-client/workflows/AnsibleCI/badge.svg)](https://github.com/juju4/ansible-apt-cacher-ng-client/actions?query=branch%3Amain)
+[![Actions Status - Devel](https://github.com/juju4/ansible-apt-cacher-ng-client/workflows/AnsibleCI/badge.svg?branch=devel)](https://github.com/juju4/ansible-apt-cacher-ng-client/actions?query=branch%3Adevel)
 
 A simple ansible role to setup system as apt-cacher-ng client
 https://www.unix-ag.uni-kl.de/~bloch/acng/
